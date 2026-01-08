@@ -10,7 +10,7 @@ import subprocess
 from pathlib import Path
 
 # Directories
-AROMANIAN_ARTICLES_DIR = "output/articles"
+AROMANIAN_ARTICLES_DIR = "output_ro_ar/articles"
 ROMANIAN_ARTICLES_DIR = "output_actualitate/articles"
 OUTPUT_FILE = "correspondences.json"
 
