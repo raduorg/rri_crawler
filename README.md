@@ -73,25 +73,6 @@ python rri_crawler.py --category /ro_ar/ascultat-la-caftari
 python rri_crawler.py --stats
 ```
 
-### Programmatic Usage
-
-```python
-from rri_crawler import RRICrawler
-
-# Create crawler instance
-crawler = RRICrawler(output_dir='my_output')
-
-# Crawl all categories
-articles = crawler.crawl_all(max_pages_per_category=50)
-
-# Or crawl specific category
-crawler.crawl_category('/ro_ar/actualitati')
-
-# Get statistics
-stats = crawler.get_statistics()
-print(stats)
-```
-
 ## Output Format
 
 Articles are saved to `output/articles.json` with the following structure:
